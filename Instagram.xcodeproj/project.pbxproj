@@ -36,6 +36,7 @@
 		567D3B27285B0646004B4678 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D3B26285B0646004B4678 /* StorageManager.swift */; };
 		567D3B2A285B06CC004B4678 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 567D3B29285B06CC004B4678 /* FirebaseStorage */; };
 		5685A73E285A565900D80C5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5685A73D285A565900D80C5F /* GoogleService-Info.plist */; };
+		56CC3B72285B78EE009E9E2E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC3B71285B78EE009E9E2E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		567D3B24285B0619004B4678 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		567D3B26285B0646004B4678 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		5685A73D285A565900D80C5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56CC3B71285B78EE009E9E2E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				567D3B22285B0556004B4678 /* DatabaseManager.swift */,
 				567D3B24285B0619004B4678 /* AuthManager.swift */,
 				567D3B26285B0646004B4678 /* StorageManager.swift */,
+				56CC3B71285B78EE009E9E2E /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				565CAEE9285A4EAE00B983D7 /* SearchResultViewController.swift in Sources */,
 				565CAEDB285A4E1A00B983D7 /* LoginViewController.swift in Sources */,
 				565CAEE7285A4E9600B983D7 /* SearchViewController.swift in Sources */,
+				56CC3B72285B78EE009E9E2E /* Extensions.swift in Sources */,
 				565CAED6285A4D8600B983D7 /* ProfileViewController.swift in Sources */,
 				565CAEB7285A322700B983D7 /* AppDelegate.swift in Sources */,
 				567D3B25285B0619004B4678 /* AuthManager.swift in Sources */,
@@ -458,8 +462,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,8 +492,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

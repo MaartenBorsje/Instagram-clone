@@ -67,7 +67,6 @@ class LoginViewController: UIViewController {
     private let privacyButton: UIButton = {
         let button =  UIButton()
         button.setTitle("Privacy Policy", for: .normal)
-        return button
         button.setTitleColor(.secondaryLabel, for: .normal)
         return button
     }()
@@ -207,6 +206,7 @@ class LoginViewController: UIViewController {
         }
         
         // login functionality
+        
     }
     
     @objc private func didTapTermsButton() {

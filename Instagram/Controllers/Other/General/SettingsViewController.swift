@@ -105,6 +105,7 @@ final class SettingsViewController: UIViewController {
         let vc = EditProfileViewController()
         vc.title = "Edit Profile"
         let navVC = UINavigationController(rootViewController: vc)
+        navVC.modalPresentationStyle = .fullScreen // deactivate this to make it able to swipe away
         present(navVC, animated: true)
     }
 

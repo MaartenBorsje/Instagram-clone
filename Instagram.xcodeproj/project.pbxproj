@@ -41,6 +41,7 @@
 		56F6E7D7285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7D6285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift */; };
 		56F6E7D9285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7D8285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift */; };
 		56F6E7DB285DFB9400A52663 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7DA285DFB9400A52663 /* IGFeedPostGeneralTableViewCell.swift */; };
+		56F6E7DD285E0E6900A52663 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7DC285E0E6900A52663 /* FormTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		56F6E7D6285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		56F6E7D8285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		56F6E7DA285DFB9400A52663 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		56F6E7DC285E0E6900A52663 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				56F6E7D5285DFAFD00A52663 /* Home Feed */,
+				56F6E7DC285E0E6900A52663 /* FormTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				56F6E7D7285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				565CAEDF285A4E4300B983D7 /* PostViewController.swift in Sources */,
 				567D3B27285B0646004B4678 /* StorageManager.swift in Sources */,
+				56F6E7DD285E0E6900A52663 /* FormTableViewCell.swift in Sources */,
 				565CAED4285A4D7C00B983D7 /* NotificationsViewController.swift in Sources */,
 				567D3B23285B0556004B4678 /* DatabaseManager.swift in Sources */,
 				565CAEE9285A4EAE00B983D7 /* SearchResultViewController.swift in Sources */,

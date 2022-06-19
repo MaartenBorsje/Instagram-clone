@@ -40,6 +40,8 @@
 		56D30CF8285F5B5700D5F263 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D30CF7285F5B5700D5F263 /* PhotoCollectionViewCell.swift */; };
 		56D30CFA285F5BA800D5F263 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D30CF9285F5BA800D5F263 /* ProfileInfoHeaderCollectionReusableView.swift */; };
 		56D30CFC285F5BDC00D5F263 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D30CFB285F5BDC00D5F263 /* ProfileTabsCollectionReusableView.swift */; };
+		56D30CFF285F76D000D5F263 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 56D30CFE285F76D000D5F263 /* SDWebImage */; };
+		56D30D01285F7C2B00D5F263 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D30D00285F7C2B00D5F263 /* Models.swift */; };
 		56F6E7D4285DF9CB00A52663 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7D3285DF9CB00A52663 /* IGFeedPostTableViewCell.swift */; };
 		56F6E7D7285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7D6285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift */; };
 		56F6E7D9285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E7D8285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift */; };
@@ -78,6 +80,7 @@
 		56D30CF7285F5B5700D5F263 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		56D30CF9285F5BA800D5F263 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		56D30CFB285F5BDC00D5F263 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		56D30D00285F7C2B00D5F263 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		56F6E7D3285DF9CB00A52663 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		56F6E7D6285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		56F6E7D8285DFB6A00A52663 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D30CFF285F76D000D5F263 /* SDWebImage in Frameworks */,
 				567D3B1E285A5BA6004B4678 /* FirebaseCrashlytics in Frameworks */,
 				567D3B1A285A5BA6004B4678 /* FirebaseAnalytics in Frameworks */,
 				567D3B20285A5BA6004B4678 /* FirebaseDatabase in Frameworks */,
@@ -152,6 +156,7 @@
 		565CAECC285A325C00B983D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				56D30D00285F7C2B00D5F263 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				567D3B1D285A5BA6004B4678 /* FirebaseCrashlytics */,
 				567D3B1F285A5BA6004B4678 /* FirebaseDatabase */,
 				567D3B29285B06CC004B4678 /* FirebaseStorage */,
+				56D30CFE285F76D000D5F263 /* SDWebImage */,
 			);
 			productName = Instagram;
 			productReference = 565CAEB3285A322700B983D7 /* Instagram.app */;
@@ -308,6 +314,7 @@
 			packageReferences = (
 				567D3B18285A5BA5004B4678 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				567D3B28285B06CC004B4678 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				56D30CFD285F76D000D5F263 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 565CAEB4285A322700B983D7 /* Products */;
 			projectDirPath = "";
@@ -346,6 +353,7 @@
 				56F6E7D7285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				565CAEDF285A4E4300B983D7 /* PostViewController.swift in Sources */,
 				567D3B27285B0646004B4678 /* StorageManager.swift in Sources */,
+				56D30D01285F7C2B00D5F263 /* Models.swift in Sources */,
 				56F6E7DD285E0E6900A52663 /* FormTableViewCell.swift in Sources */,
 				565CAED4285A4D7C00B983D7 /* NotificationsViewController.swift in Sources */,
 				56D30CFC285F5BDC00D5F263 /* ProfileTabsCollectionReusableView.swift in Sources */,
@@ -605,6 +613,14 @@
 				kind = branch;
 			};
 		};
+		56D30CFD285F76D000D5F263 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -632,6 +648,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 567D3B28285B06CC004B4678 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		56D30CFE285F76D000D5F263 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56D30CFD285F76D000D5F263 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

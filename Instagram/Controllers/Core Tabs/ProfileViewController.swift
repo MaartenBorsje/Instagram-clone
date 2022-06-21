@@ -115,6 +115,7 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
             let tabsControlHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: ProfileTabsCollectionReusableView.identifier,
                                                                          for: indexPath) as! ProfileTabsCollectionReusableView
+            tabsControlHeader.delegate = self
             return tabsControlHeader
         }
         
@@ -133,7 +134,7 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
         
         // Size of section tabs
         return CGSize(width: collectionView.width,
-                      height: 65)
+                      height: 50)
     }
 }
 
@@ -163,6 +164,18 @@ extension ProfileViewController: ProfileInfoHeaderCollectionReusableViewDelegate
         let vc = EditProfileViewController()
         vc.title = "Edit Profile"
         present(UINavigationController(rootViewController: vc ), animated: true)
+    }
+    
+    
+}
+
+extension ProfileViewController: ProfileTabsCollectionReusableViewDelegate {
+    func didTapGridButtonTab() {
+        // Reload collection view width data
+    }
+    
+    func didTapTaggedButtonTab() {
+        // Reload collection view width data
     }
     
     

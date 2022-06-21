@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5636E5A12862424400866EEA /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5636E5A02862424400866EEA /* UserFollowTableViewCell.swift */; };
 		565CAEB7285A322700B983D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565CAEB6285A322700B983D7 /* AppDelegate.swift */; };
 		565CAEB9285A322700B983D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565CAEB8285A322700B983D7 /* SceneDelegate.swift */; };
 		565CAEBB285A322700B983D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565CAEBA285A322700B983D7 /* HomeViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5636E5A02862424400866EEA /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		565CAEB3285A322700B983D7 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565CAEB6285A322700B983D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		565CAEB8285A322700B983D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				56F6E7D5285DFAFD00A52663 /* Home Feed */,
 				56F6E7DC285E0E6900A52663 /* FormTableViewCell.swift */,
 				56D30CF7285F5B5700D5F263 /* PhotoCollectionViewCell.swift */,
+				5636E5A02862424400866EEA /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				56F6E7D7285DFB5200A52663 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				565CAEDF285A4E4300B983D7 /* PostViewController.swift in Sources */,
 				567D3B27285B0646004B4678 /* StorageManager.swift in Sources */,
+				5636E5A12862424400866EEA /* UserFollowTableViewCell.swift in Sources */,
 				56D30D01285F7C2B00D5F263 /* Models.swift in Sources */,
 				56F6E7DD285E0E6900A52663 /* FormTableViewCell.swift in Sources */,
 				565CAED4285A4D7C00B983D7 /* NotificationsViewController.swift in Sources */,

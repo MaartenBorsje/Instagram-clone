@@ -159,7 +159,7 @@ extension PostViewController: UITableViewDelegate, UITableViewDataSource {
         let model = renderModels[indexPath.section]
         switch model.renderType {
         case .actions(_): return 60
-        case .comments(_): return 60
+        case .comments(_): return 50
         case .primaryContent(_): return tableView.width // This can later be chanced to fit differend aspectratios
         case .header(_): return 70
         }

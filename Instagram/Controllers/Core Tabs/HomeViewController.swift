@@ -35,8 +35,50 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        createMockModels()
+        view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
+    }
+    
+    private func createMockModels() {
+        let user = User(username: "joe",
+                        bio: "",
+                        name: (first: "", last: ""),
+                        profilePhoto: URL(string: "https://www.google.com")!,
+                        birthDate: Date(),
+                        gender: .male,
+                        counts: UserCount(followers: 1, following: 1, posts: 1),
+                        joinDate: Date())
+        let post = UserPost(idenifier: "",
+                            postType: .photo,
+                            thumnailImage: URL(string: "https://www.google.com")!,
+                            postUrl: URL(string: "https://www.google.com")!,
+                            caption: nil,
+                            likeCount: [],
+                            comments: [],
+                            createdDate: Date(),
+                            taggedUsers: [],
+                            owner: user)
+        var comments = [PostComment]()
+        for x in 0..<2 {
+            comments.append(PostComment(
+                identifier: "\(x)",
+                username: "@jenny",
+                text: "This is the best post I've seen",
+                createdDate: Date(),
+                likes: []
+            )
+            )
+        }
+        
+        for x in 0..<5 {
+            let viewModel = HomeFeedRenderViewModel(header: PostRenderViewModel(renderType: .header(provider: user)),
+                                                    post: PostRenderViewModel(renderType: .primaryContent(provider: post)),
+                                                    actions: PostRenderViewModel(renderType: .actions(provider: "")),
+                                                    comments: PostRenderViewModel(renderType: .comments(comments: comments)))
+            feedRenderModels.append(viewModel)
+        }
     }
     
     override func viewDidLayoutSubviews() {

@@ -174,6 +174,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             case .primaryContent(let post):
                 let cell = tableView.dequeueReusableCell(withIdentifier: IGFeedPostTableViewCell.identifier,
                                                          for: indexPath) as! IGFeedPostTableViewCell
+                cell.configure(with: post)
                 return cell
             case .actions, .header, .comments: return UITableViewCell()
             }
